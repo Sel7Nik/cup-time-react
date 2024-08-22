@@ -1,0 +1,8 @@
+отключение валидации props
+eslint.config.js > rules:{"react/prop-types": "off"}
+
+React Router Dom
+https://reactrouter.com/en/main/start/tutorial
+npm i react-router-dom 
+
+https://reactrouter.com/en/main/router-components/router
