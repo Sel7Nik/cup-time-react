@@ -54,7 +54,7 @@ export const Cart = () => {
 
   const totalPrice = cart ? cart.reduce((accum, item) => accum + item.quantity * item.price, 0) : 0
   // const totalProducts = cart.length
-  const summaryProducts = cart.reduce((accum, item) => item.quantity + accum, 0)
+  const summaryProducts = cart ? cart.reduce((accum, item) => item.quantity + accum, 0) : 0
 
   return (
     <section className="cart">
